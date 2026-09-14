@@ -76,3 +76,14 @@ th, td {
     padding-left: 5%;
     padding-right: 5%;
 }
+
+footer {
+    text-align: center;
+    background-color: #FF7EC4;
+    padding: 8px;
+}
+
+.name {
+    font-weight: bold;
+    text-decoration: underline;
+}
