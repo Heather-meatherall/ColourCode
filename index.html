@@ -3,109 +3,113 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Theater Electronic Colour Code</title>
+    <title data-lang="title">Resistor Colour Code</title>
     <link rel="stylesheet" href="style/style.css">
     <script src="js/main.js" defer></script>
     
   </head>
   <body>
+    <select id="language-switcher">
+  <option value="en">English</option>
+  <option value="fr">Français</option>
+</select>
 
-    <h1 class="center">Theater Electronic Colour Code</h1>
+    <h1 class="center" data-lang="title"></h1>
 
-    <h3 class="center">Learn the code crew members use to represent numbers!</h3>
+    <h3 class="center" data-lang="description"></h3>
 
     <div class="center" >
         <div class="column">
-            <h2 class="center"> The Chart </h2>
+            <h2 class="center" data-lang="chart"></h2>
     <table>
   <tr>
-    <th>Number</th>
-    <th>Colour</th>
+    <th data-lang="number"></th>
+    <th data-lang="colour"></th>
     <th><div class="smallSquare"></div></th>
   </tr>
   <tr>
     <td>0</td>
-    <td>black</td>
+    <td data-lang="black"></td>
     <td><div class="smallSquare" style="background-color: black;"></div></td>
   </tr>
   <tr>
     <td>1</td>
-    <td>brown</td>
+    <td data-lang="brown"></td>
     <td><div class="smallSquare" style="background-color: brown;"></div></td>
   </tr>
   <tr>
     <td>2</td>
-    <td>red</td>
+    <td data-lang="red"></td>
     <td><div class="smallSquare" style="background-color: red;"></div></td>
   </tr>
   <tr>
     <td>3</td>
-    <td>orange</td>
+    <td data-lang="orange">orange</td>
     <td><div class="smallSquare" style="background-color: orange;"></div></td>
   </tr>
   <tr>
     <td>4</td>
-    <td>yellow</td>
+    <td data-lang="yellow">yellow</td>
     <td><div class="smallSquare" style="background-color: yellow;"></div></td>
   </tr>
   <tr>
     <td>5</td>
-    <td>green</td>
+    <td data-lang="green">green</td>
     <td><div class="smallSquare" style="background-color: green;"></div></td>
   </tr>
   <tr>
     <td>6</td>
-    <td>blue</td>
+    <td data-lang="blue">blue</td>
     <td><div class="smallSquare" style="background-color: blue;"></div></td>
   </tr>
   <tr>
     <td>7</td>
-    <td>purple</td>
+    <td data-lang="purple">purple</td>
     <td><div class="smallSquare" style="background-color: purple;"></div></td>
   </tr>
   <tr>
     <td>8</td>
-    <td>grey</td>
+    <td data-lang="grey">grey</td>
     <td><div class="smallSquare" style="background-color: grey;"></div></td>
   </tr>
   <tr>
     <td>9</td>
-    <td>white</td>
+    <td data-lang="white">white</td>
     <td><div class="smallSquare" style="background-color: white;"></div></td>
   </tr>
 </table>
         </div>
     
     <div class="column">
-        <h2 class="center"> Practice Time!</h2>
-        <p class="center">Keep going until you get all 20 questions right</p>
+        <h2 class="center" data-lang="practiceTitle"> Practice Time!</h2>
+        <p class="center" data-lang="practiceSub">Keep going until you get all 20 questions right</p>
 
     <div class="center">
         
-        <button><a href="practice/colourToNumber.html">Color To Number</a></button>
+        <button><a href="practice/colourToNumber.html" data-lang="colourToNumber">Color To Number</a></button>
     </div>
     <br>
     <div class="center">
-        <button><a href="practice/numberToColour.html">Number to Colour</a></button>
+        <button><a href="practice/numberToColour.html" data-lang="numberToColour">Number to Colour</a></button>
     </div>
 
     <br>
 
-    <h2 class="center"> Test Your Knowedgle!</h2>
-    <p class="center">See how many you get right</p>
+    <h2 class="center" data-lang="testTitle"> Test Your Knowedgle!</h2>
+    <p class="center" data-lang="testSub">See how many you get right</p>
 
     <div class="center">
-        <button><a href="quiz/colourToNumber.html">Color To Number</a></button>
+        <button><a href="quiz/colourToNumber.html" data-lang="colourToNumber">Color To Number</a></button>
     </div>
     <br>
     <div class="center">
-        <button><a href="quiz/numberToColour.html">Number to Colour</a></button>
+        <button><a href="quiz/numberToColour.html" data-lang="numberToColour">Number to Colour</a></button>
     </div>
     </div>
     </div>
     
     <footer>
-      Created by <a class="name" href="https://heather-meatherall.github.io/" target="_blank" rel="noopener noreferrer">Heather Meatherall</a>
+      <p data-lang="created">Created by</p> <a class="name" href="https://heather-meatherall.github.io/" target="_blank" rel="noopener noreferrer">Heather Meatherall</a>
     </footer>
 
   </body>

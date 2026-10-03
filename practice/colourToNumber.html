@@ -9,9 +9,15 @@
     <script src="../js/main.js" defer></script>
     
   </head>
+  
+
   <body onload="changeColour()">
-    <button title="Go Home"><a href="../index.html"><i class="material-icons">home</i></a></button>
+    <button title="Home"><a href="../index.html"><i class="material-icons">home</i></a></button>
     <button title="Practice"><a href="../quiz/colourToNumber.html"><i class="material-icons">quiz</i></a></button>
+    <select id="language-switcher" style="visibility: hidden">
+  <option value="en">English</option>
+  <option value="fr">Français</option>
+</select>
 
     <div id="question">
       <div class="center">
@@ -23,7 +29,7 @@
     </div>
     <br>
     <div class="center">
-        <button onclick="checkColourToNumber()">Submit</button>
+        <button onclick="checkColourToNumber()" data-lang="submit">Submit</button>
     </div>
     </div>
 

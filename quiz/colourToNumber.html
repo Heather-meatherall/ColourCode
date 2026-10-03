@@ -10,8 +10,12 @@
     
   </head>
   <body onload="changeColour()">
-    <button title="Go Home"><a href="../index.html"><i class="material-icons">home</i></a></button>
+    <button title="Home"><a href="../index.html"><i class="material-icons">home</i></a></button>
     <button title="Practice"><a href="../practice/colourToNumber.html"><i class="material-icons">fitness_center</i></a></button>
+    <select id="language-switcher" style="visibility: hidden">
+  <option value="en">English</option>
+  <option value="fr">Français</option>
+</select>
 
 
     <div id="question">
@@ -19,12 +23,12 @@
         <div id="square">grey</div>
     </div>
     <br>
-    <div class="center">
+    <div class="center">  
         <input type="text" id="input" >
     </div>
     <br>
     <div class="center">
-        <button onclick="checkColourToNumber(true)">Submit</button>
+        <button onclick="checkColourToNumber(true)" data-lang="submit">Submit</button>
     </div>
     </div>
 
