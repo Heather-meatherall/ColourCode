@@ -87,3 +87,11 @@ footer {
     font-weight: bold;
     text-decoration: underline;
 }
+
+#language-switcher {
+    background-color: #FFB9DF;
+    border: solid 2px black;
+    border-radius: 4px;
+    display: inline-block;
+    font-size: 16px;
+}
