@@ -1,5 +1,5 @@
 {
-    "title": "Resistor Colour Code",
+    "title": "Theatre Electronic Colour Code",
     "description": "Learn the code crew members use to represent numbers!",
     "chart": "The Chart",
     "number": "Number",
@@ -26,5 +26,4 @@
     "created": "Created By",
     "submit": "Submit",
     "err": "Not quite! Try again!"
-
-    }
+}
