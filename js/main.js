@@ -4,7 +4,7 @@ document.getElementById('language-switcher').addEventListener('change', function
 });
 
 function loadLanguageFile(lang) {
-  fetch(`/languages/${lang}.json`)
+  fetch(`./languages/${lang}.json`)
     .then(response => response.json())
     .then(data => applyTranslations(data));
 }
